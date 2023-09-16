@@ -1,0 +1,971 @@
+* {
+    /* formatando a página */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+header {
+    /* estilizando cabeçalh */
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    min-height: 250px;
+    padding: 25px;
+}
+
+
+.container {
+    /* definindo tamanho do primeiro container */
+    max-width: 1200px;
+    /*  Largura maxima do container  */
+    padding: 0 2%;
+    margin: 0 auto;
+
+}
+
+.logo {
+    /* estilizando a logo */
+    position: relative;
+    background-image: url('../img/logo.png');
+    /* puxando minha logo */
+    width: 132px;
+    height: 40px;
+    background-size: 100% 100%;
+    float: left;
+
+}
+
+nav.desktop {
+    float: right;
+    /* definindo posição do topico */
+
+}
+
+nav.desktop ul {
+    /* tirando pontos da lista */
+    list-style-type: none;
+
+}
+
+nav.desktop li {
+    /* transformando lista em apenas um  linha */
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+nav.desktop a {
+    /* estilizando menu superior */
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+nav li.btn-mais {
+    /* menu superior */
+    padding: 3px 8px;
+
+}   
+
+.desktop a:hover{
+    /* efeito ao passar o mouse em cima */
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    border: 1.8px solid #F29F05;
+    padding: 4px ; 
+    text-align: center;
+    color: white;
+    
+} 
+
+div.chamada-mkt {
+    /* tamanho do texto superior abaixo da logo  */
+    padding: 50px 0;
+
+}
+
+div.chamada-mkt h2 {
+    /* estilizando texto supoerior */
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+div.chamada-mkt p {
+    /* estilizando texto supoerior */
+    font-size: 30px;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+div.chamada-mkt form {
+    /* estilizando formulario */
+    margin-top: 15px;
+    border-color: #F29F05;
+
+}
+
+div.chamada-mkt input[type=search]:focus {
+    outline: 0;
+}
+
+/*  campo de email */
+
+div.chamada-mkt input[type=search] {
+    /* estilizando campo de email */
+    width: 190px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    border: 0;
+    padding-left: 18px;
+    margin-top: 20px;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+div.chamada-mkt input[type=submit] {
+    /* estilizando botão de login */
+    border-radius: 100px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border-color: #F29F05;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+div.chamada-mkt input[type=submit]:hover {
+    /* efeito ao passar o mouse - botão de email */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+
+.sessao-01 {
+    /* fundo da primeira sessão */
+    text-align: center;
+    padding: 30px 0;
+    background-color: #F2B705;
+}
+
+.des-produto {
+    /* descrição da primeira sessão */
+    padding: 0 15px;
+    float: right;
+    width: 60%;
+    margin-top: 30px;
+
+
+}
+
+.des-produto h3 {
+    /* descrição da primeira sessão */
+    padding-top: 35px;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 23px;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.des-produto p {
+    /* descrição da primeira sessão */
+    margin-top: 15px;
+    color: rgb(0, 0, 0, 0.9);
+    font-size: 20px;
+    line-height: 27px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 900;
+
+}
+
+.sessao-01 img {
+    /* imagem da primeira sessão */
+    width: 40%;
+    float: left;
+    max-width: 500px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.sessao-02{
+    background-color:black;
+    background-size: 100%;
+    padding: 50px;
+
+}
+
+.sessao-02>.container {
+    /* editando container da segunda sessão */
+   color: #730220;
+    background-size: cover;
+   box-shadow: #ffffff;
+    max-width: 1000px;
+    min-height: 350px;
+    display: flex;
+}
+
+.feedback {
+    /* estilizando segunda sessão */
+    position: absolute;
+    left: 60%;
+    width: 70%;
+    background: rgba(47, 47, 47, 0.7);
+    bottom: -25px;
+    max-width: 500px;
+    padding: 45px;
+    box-shadow: 0 9px 20px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 3%;
+
+}
+
+
+.sessao-03 {
+    /* tamanho da terceira sessao */
+    padding: 15px;
+    text-align: center;
+    background-color: #F2B705;
+
+}
+
+.sessao-03 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    bottom: -43px;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color:black ;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.prod-1 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/samsung-pr2.jpg');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+
+}
+
+.prod-1 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 77%;
+    padding-left: 17%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-1 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 46%;
+    padding-right: 10px;
+
+}
+
+.prod-1 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.prod-2 {
+    /* imagem do segundo produto */
+    background-image: url('../img/sam2.jpg');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-2 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 78%;
+    padding-left: 27%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-2 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: bottom;
+    color: white;
+    top: 50%;
+    padding-right: 10px;
+
+}
+
+.prod-2 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.prod-3 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/prod2.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-3 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute  ;
+    top: 78%;
+    padding-left: 29%;
+    text-align: bottom;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-3 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 48%;
+    padding-right: 10px;
+
+}
+
+.prod-3 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.parceiros{
+    background-color: #F2B705;
+}
+
+.parceiros div{
+    display: inline-block;
+    position: relative;
+    height: 78px;
+    width: 160px;
+    background-color: white;
+    left:  18%;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-size: cover;
+
+}
+
+.parceiros p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: x-large;
+    padding-top : 50px;
+    padding-bottom: 25px;
+    position: relative;
+
+}   
+
+.parc1{
+    background-image: url('../img/applelogo.png');
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.parc2{
+    background-image: url('../img/samlogo.avif');
+    background-repeat: no-repeat;
+    text-align: start;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.parc3{
+    background-image: url('../img/sonylogo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: start;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.parc4{
+    background-image: url('../img/Xiaomi-Logo1.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    line-height: 46px;
+ 
+}  
+
+
+
+
+
+
+
+
+
+
+
+/* estilização da sessão 2 */
+.sessao-02 .active:hover{
+    /* efeito ao clicar em "comprar" */
+    transition: all 0.5s ease;
+    background-color: #F2B705;
+    color: white;
+}
+.produtos{
+    background-color: #730220;
+    background-size: 100%;
+    padding: 50px;
+    color: #ffffff;
+}
+.samsung{
+    background-color: #730220;
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+    display: inline-block;
+}
+footer{
+    background-color: #730220;
+    text-align: center;
+    color: white;
+
+}
+.sessao-02 div {
+    /* estilizando as 3 colunas dos itens na terceira sessão */
+    display: inline-block;
+    position: relative;
+    bottom: -43px;
+    margin: 11px;
+    height: 520px;
+    width: 25%;
+    background-color: #F2B705;
+    margin-left: 13px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.prod-4 {
+    /* imagem do primeiro produto */
+    background-image: url('../img/sam6.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+
+}
+
+.prod-4 h1 {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    top: 77%;
+    padding-left: 17%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-4 p {
+    /* estilizando texto do primeiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 49%;
+    padding-right: 10px;
+
+}
+
+.prod-4 input[type=submit] {
+    /* estilizando botão do primeiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.prod-5 {
+    /* imagem do segundo produto */
+    background-image: url('../img/sam5.png');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-5 h1 {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    top: 78%;
+    padding-left: 27%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-5 p {
+    /* estilizando texto do segundo produto */
+    position: absolute;
+    text-align: bottom;
+    color: white;
+    top: 50%;
+    padding-right: 10px;
+
+}
+
+.prod-5 input[type=submit] {
+    /* estilizando botão do segundo produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 105px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+.prod-6 {
+    /* imagem do teceiro produto */
+    background-image: url('../img/sam6.jpg');
+    background-repeat: no-repeat;
+    text-align: start;
+    padding-left: 13px;
+    background-size: contain;
+
+}
+
+.prod-6 h1 {
+    /* estilizando texto do terceiro produto */
+    position: absolute  ;
+    top: 78%;
+    padding-left: 32%;
+    text-align: bottom;
+    color: white;
+    font-weight: bold;
+
+}
+
+.prod-6 p {
+    /* estilizando texto do terceiro produto */
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 48%;
+    padding-right: 10px;
+
+}
+
+.prod-6 input[type=submit] {
+    /* estilizando botão do terceiro produto */
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-color: #F29F05;
+    position: absolute;
+    text-align: center;
+    left: 110px;
+    top: 450px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+/* rodapé */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+/* ----------------------------------------abaixo versão mobile responsividade---------------*/
+
+nav.mobile{
+
+    display: none;
+    float: right;
+    
+    
+    
+    }
+    
+    nav.mobile ul{
+    
+        position: absolute;/* para ficar a frente de do site todo */
+        width: 100%;
+        background-color: #F29F05;
+        left: 0;
+        text-align: center;
+        padding: 50px 0 30px 0;
+        top: 0;
+        display: none;
+    
+    
+    }
+    
+    nav.mobile a{
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
+    nav.mobile li{/* se quiser com butão 
+        nav. mibile li.btn-orçsmento
+        padding 4px 10px;
+        display: inline-block;*/
+        padding: 10px 0;/* definindo espaço entre a lista */
+    
+    
+    }
+    
+    nav.mobile i{ /* conf o icon do menu */
+        position: relative;
+        z-index: 2;
+        color: white;
+    
+    
+    }
+    @media screen and (max-width: 1024px)
+    /* tudo que esta aqui será a config para mobile */
+    /* 1024 px unidade de medida maxima */ { 
+        /* definindo o tamanho padrão */
+    
+        nav.desktop{
+            display: none;/* desativando o display apartir do 1024*/
+    
+        }
+        nav.mobile{
+            display: block;/* ativando o display  abaixo de 1024*/
+    
+        }
+        div.chamada-mkt{
+            text-align: center;
+        }
+    
+        div.chamada-mkt input[type=email]{/* butão do email */
+    
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+            position: absolute;
+            left: 40%;
+            
+        }
+         
+        div.chamada-mkt input[type=submit] {
+            position: absolute;
+            right: 320px;
+            top: 230px;
+        }
+        .parceiros div {
+            left: 12%;
+     
+        }
+        
+    
+    .des-produto{
+    
+         width: 100%;
+    }
+    /* -------------------sessão 1 */
+    section.sessao-01 img{
+       
+    
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    
+    }
+   
+    .sessao-02 div {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2%;
+        width: 40%;
+    }
+
+
+
+
+
+    /* input sub */
+    .prod-1 input[type=submit] { 
+        left: 140px;
+    }
+    .prod-2 input[type=submit] { 
+        left: 125px;
+    }
+    .prod-3 input[type=submit] { 
+        left: 125px;
+    }
+
+    div.chamada-mkt input[type=submit] {
+        position: absolute;
+        left: 63%;
+    }
+    .parceiros div {
+        left: 12%;
+    }
+    
+    /* sectio 2 produtos */
+    
+
+    .prod-1 p {
+        width: auto;
+        text-align:center;
+        left: 17%;   
+    }
+
+   
+
+    .prod-1 h1{
+        padding-left: 33%;
+    }
+
+    
+
+
+    .prod-2 p {
+        width: auto;
+        text-align:center;
+        left: 17%;   
+    }
+
+   
+
+    .prod-2 h1{
+        padding-left: 33%;
+    }
+
+    
+    .prod-3 p {
+        width: auto;
+        text-align:center;
+        left: 17%;   
+    }
+
+    .prod-3 h1{
+        padding-left: 24%;
+    }
+
+    .prod-4 p {
+        width: auto;
+        text-align:center;
+        left: 17%;   
+    }
+
+    
+
+    .prod-4 h1{
+        padding-left: 33%;
+    }
+    
+    .prod-4 h1{
+     left: 20%;
+    }
+
+    .parceiros div {
+        left: 12%;
+ 
+    }
+
+   
+   
+   
+   
+   /* ----------------------------------section 3--------------------------- */
+   
+
+   
+    .sessao-03 {
+        display:inline-block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2%;
+        width:100%;
+    }
+    /* input sub */
+    .prod-1 input[type=submit] { 
+        left: 140px;
+    }
+    .prod-2 input[type=submit] { 
+        left: 125px;
+    }
+    .prod-3 input[type=submit] { 
+        left: 125px;
+    }
+    .prod-4 input[type=submit] { 
+        left: 140px;
+        top:90%;
+    }
+    .prod-5 input[type=submit] { 
+        left: 155px;
+        top: 90%;
+    }
+    .prod-6 input[type=submit] { 
+        left: 125px;
+        top: 604px;
+    }
+
+
+    div.chamada-mkt input[type=submit] {
+        position: absolute;
+        left: 63%;
+    }
+    .parceiros div {
+        left: 12%;
+    }
+    
+    .sessao-03 div{
+    
+        display: flex;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 2%;
+        width: 40%;
+        height: 725px;
+        justify-content: space-around; 
+    }
+
+
+    .prod-4 p {
+        width: auto;
+        text-align:center;
+        left: 17%;   
+        font-size: x-large;
+    }
+
+   
+
+    .prod-4 h1{
+        padding-left: 33%;
+    }
+
+    
+
+
+    .prod-5 p {
+        width: auto;
+        text-align:center;
+        left: 13%;   
+        font-size: x-large;
+
+    }
+
+   
+
+    .prod-5 h1{
+        padding-left: 33%;
+        top: 600px;
+        left: 29px;
+    }
+    
+    .prod-6 p {
+        width: auto;
+        text-align:center;
+        padding-right: 60px;
+        left: 29px;
+        top:38% ;
+        font-size: x-large;
+
+    }
+
+     .prod-6 h1{
+     
+    left: 9px;
+    
+    }
+
+
+
+ 
+
+
+}
